@@ -24,7 +24,7 @@ video.addEventListener('play', () => {
     document.body.append(canvas)
     const displaySize = { width: video.width, height: video.height }
     faceapi.matchDimensions(canvas, displaySize)
-    //async func becasue it's an async library
+    //async func because it's an async library
     //doing that multiple times (with setInterval)
     setInterval(async () => {
         const detections = await faceapi.detectAllFaces(video, 
