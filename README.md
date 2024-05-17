@@ -10,3 +10,7 @@ It was a nice exercise to work with. It was nice to learn a bit more about:
 - async functions (async, await)
 - setInterval() function
 - having a first grasp of the faceapi JS library (which has many methods, constructors etc.)
+
+## Where to find sources of this project:
+
+- [faceapi's github](https://github.com/justadudewhohacks/face-api.js)
